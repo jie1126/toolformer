@@ -5,7 +5,8 @@ __all__ = ['AugmentedCandidate', 'DataGenerator']
 
 # %% ../nbs/04_data_generator.ipynb 4
 import re
-from typing import List, Callable, Tuple, Union, TypedDict
+from typing import List, Callable, Tuple, Union
+from typing_extensions import TypedDict
 
 import torch
 from torch import nn
